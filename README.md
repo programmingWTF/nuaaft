@@ -6,11 +6,19 @@
 
 ## 安装与开始
 
-把这句话发给你的 Agent：
+把下面这段提示词发给你的 Agent，它会按客户端支持情况选择安装渠道：
 
-> 请从 https://github.com/programmingWTF/nuaaft 克隆仓库，将其安装到你所用客户端的技能目录并命名为 nuaaft，读取 SKILL.md，然后先问清楚我要学哪门课、哪节课、哪些内容，以及希望讲课、做题还是处理错题。
+> 请安装并使用 nuaaft（南航飞天云课堂AI技能），按当前客户端支持情况选择以下一种方式，不要重复安装：
+>
+> 1. **skills.sh**：查看 https://www.skills.sh/programmingwtf/nuaaft/nuaaft ，使用 `npx skills add programmingWTF/nuaaft --skill nuaaft`，选择当前客户端对应的 Agent 和技能目录完成安装。
+> 2. **ClawHub（适用于 OpenClaw）**：查看 https://clawhub.ai/programmingwtf/skills/nuaaft ，确认技能已正式发布后，使用 `clawhub install programmingwtf/nuaaft` 安装；若仍在发布队列或不可用，请改用 skills.sh 或下方 GitHub 方式，不要强制绕过审核。
+> 3. **GitHub 通用方式**：从 https://github.com/programmingWTF/nuaaft 克隆仓库，将其安装到当前客户端的技能目录并命名为 nuaaft。
+>
+> 安装后读取该技能的 SKILL.md 并按其中要求执行；先根据当前消息和上下文确认我要学哪门课、哪节课、哪些内容，以及希望讲课、做题还是处理错题，只补问尚未明确的信息，再开始辅导。
 
-其余操作由 Agent 按 Skill 执行。（需要Python 3.10+、Chrome、curl）
+其余操作由 Agent 按 Skill 执行。（需要 Python 3.10+、Chrome、curl；skills.sh 安装还需要 Node.js/npm，ClawHub 安装需要 ClawHub CLI。）
+
+收录进度：上述 skills.sh 页面已可用；ClawHub v0.1.0 已提交，正式可用性以平台状态为准。[awesome-copilot 收录 PR](https://github.com/github/awesome-copilot/pull/5313) 尚待审核，awesome-openclaw-skills 和 Skills Directory 尚未收录，不作为当前安装入口。
 
 ## 免责声明
 
