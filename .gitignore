@@ -1,0 +1,31 @@
+# local security-hook state (mimosa)
+.mimosa/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# runtime artifacts
+/tmp/
+*.srt
+*.mp4
+
+# Local environments and private study data
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+work/
+outputs/
+state.json
+*state*.json
+qr*.png
+*.log
+session.json
+mistakes.json
+错题本.md

@@ -1,0 +1,23 @@
+name: 问题反馈
+description: 报告脚本或教学流程问题
+title: "[问题] "
+body:
+  - type: markdown
+    attributes:
+      value: "请勿上传凭据、二维码或个人课程资料；安全漏洞请参阅 SECURITY.md。"
+  - type: textarea
+    id: behavior
+    attributes:
+      label: 预期与实际行为
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤与脱敏示例
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 系统、Python 与 AI 客户端版本
