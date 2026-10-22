@@ -18,7 +18,7 @@
 
 其余操作由 Agent 按 Skill 执行。（需要 Python 3.10+、Chrome、curl；skills.sh 安装还需要 Node.js/npm，ClawHub 安装需要 ClawHub CLI。）
 
-收录进度：上述 skills.sh 页面已可用；ClawHub v0.1.0 已提交，正式可用性以平台状态为准。[awesome-copilot 收录 PR](https://github.com/github/awesome-copilot/pull/5313) 尚待审核，awesome-openclaw-skills 和 Skills Directory 尚未收录，不作为当前安装入口。
+收录进度：上述 skills.sh 页面已可用；ClawHub v0.1.0 已提交，正式可用性以平台状态为准。Skills Directory 尚未收录，不作为当前安装入口。
 
 ## 免责声明
 
